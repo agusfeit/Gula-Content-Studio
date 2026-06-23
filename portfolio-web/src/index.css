@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 47% 96%;
+    --foreground: 230 28% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 230 28% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 28% 18%;
+
+    --primary: 340 93% 79%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 15 100% 91%;
+    --secondary-foreground: 230 28% 18%;
+
+    --muted: 39 47% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 230 28% 18%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 230 28% 18%;
+    --input: 230 10% 85%;
+    --ring: 340 93% 79%;
+
+    --radius: 1.5rem;
+
+    /* Custom tokens */
+    --coral: 340 93% 79%;
+    --peach: 15 100% 91%;
+    --navy: 230 75% 19%;
+    --cream: 39 47% 96%;
+
+    --font-display: 'Fredoka One', cursive;
+    --font-body: 'Nunito', sans-serif;
+
+    --shadow-brutalist: 6px 6px 0 hsl(var(--navy));
+    --shadow-brutalist-sm: 4px 4px 0 hsl(var(--navy));
+    --shadow-brutalist-hover: 8px 8px 0 hsl(var(--navy));
+  }
+
+  .dark {
+    --background: 230 75% 19%;
+    --foreground: 39 47% 96%;
+    --card: 230 75% 19%;
+    --card-foreground: 39 47% 96%;
+    --primary: 340 93% 79%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 15 100% 91%;
+    --secondary-foreground: 230 28% 18%;
+    --muted: 230 32% 25%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 340 93% 79%;
+    --accent-foreground: 0 0% 100%;
+    --border: 0 0% 100%;
+    --input: 230 32% 25%;
+    --ring: 340 93% 79%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+
+  /* Noise overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-20px) scale(1.05); }
+}
+@keyframes morph {
+  0%, 100% { border-radius: 40% 60% 55% 45% / 50% 45% 55% 50%; }
+  33% { border-radius: 55% 45% 40% 60% / 45% 55% 45% 55%; }
+  66% { border-radius: 45% 55% 60% 40% / 55% 45% 55% 45%; }
+}
+@keyframes floatDeco {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(10deg); }
+}
+@keyframes slideInLeft {
+  from { transform: translateX(-30px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideInRight {
+  from { transform: translateX(30px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes scrollBrands {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
