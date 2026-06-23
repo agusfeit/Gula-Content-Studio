@@ -7,3 +7,10 @@
 *.tmp
 *~
 .~*
+
+# Secrets de la conexión IG (NUNCA commitear el token)
+.env
+.env.local
+**/.env
+**/.env.local
+node_modules/
