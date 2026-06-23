@@ -1,0 +1,15 @@
+{
+  "name": "gula-ig-conexion",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Conexión a la Instagram Graph API para volcar métricas de @gula a 06_Metricas_Instagram/",
+  "scripts": {
+    "discover": "node fetch-metricas.mjs --discover",
+    "check": "node fetch-metricas.mjs --check",
+    "fetch": "node fetch-metricas.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
