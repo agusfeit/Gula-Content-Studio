@@ -218,8 +218,15 @@ async function fetchAll() {
   }
 
   // 6) Derivados
-  const reachFollower = reachByFollow?.follower ?? null;
-  const reachNonFollower = reachByFollow?.non_follower ?? null;
+  // Meta devuelve las claves del breakdown en MAYÚSCULAS ("FOLLOWER"/"NON_FOLLOWER"),
+  // pero por las dudas las buscamos sin importar mayúsc/minúsc ni guiones.
+  const rb = reachByFollow || {};
+  const findFollow = (re) => {
+    for (const k of Object.keys(rb)) if (re.test(k)) return rb[k];
+    return null;
+  };
+  const reachFollower = findFollow(/^follower$/i);
+  const reachNonFollower = findFollow(/non.?follower/i);
   const reachTotal = (reachFollower ?? 0) + (reachNonFollower ?? 0) || totalValue(accIns.reach);
   const pctNonFollower = reachNonFollower != null && reachTotal ? +((reachNonFollower / reachTotal) * 100).toFixed(1) : null;
   const reels = pieces.filter((p) => /reel/i.test(p.tipo));
@@ -312,8 +319,13 @@ ${topByShare.map((p, i) => `| ${i + 1} | ${p.permalink || "_"} | ${p.tipo} | ${n
 - (opcional)
 `;
   const logPath = resolve(METRICS_DIR, `${ym()}.md`);
-  // No pisar un log que ya editaste a mano: si existe, escribimos la versión auto al lado.
-  const finalLogPath = existsSync(logPath) ? resolve(OUT_DIR, `${ym()}_auto.md`) : logPath;
+  // No pisar un log que editaste a mano. Pero si el que existe lo generamos
+  // nosotros (tiene el marcador), lo sobrescribimos sin drama.
+  let finalLogPath = logPath;
+  if (existsSync(logPath)) {
+    const isAuto = readFileSync(logPath, "utf8").includes("Generado automáticamente por la Graph API");
+    if (!isAuto) finalLogPath = resolve(OUT_DIR, `${ym()}_auto.md`);
+  }
   writeFileSync(finalLogPath, log);
 
   // 3) consola
