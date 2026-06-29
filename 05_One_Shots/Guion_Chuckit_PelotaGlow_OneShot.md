@@ -1,5 +1,5 @@
 # One-Shot — Chuckit! Pelota que brilla en la oscuridad
-**Orgánico de Gula · ~15-22s · 9:16 · Texto POV (Gula 1ra persona) + audio trending · Tono divertido/relatable**
+**Orgánico de Gula · ~22-30s · 9:16 · Voz en off (Gula 1ra persona) · Tono divertido/relatable**
 *(Sin brief de marca: video orgánico. Sin mandatorios de Chuckit!. Foco en el problema relatable de invierno.)*
 
 ---
@@ -8,22 +8,48 @@
 
 En invierno oscurece más temprano y el paseo se hace de noche → siempre perdemos los juguetes en el pasto. La pelota glow lo resuelve sola. Gula vive el problema en primera persona; la pelota es la salvación. Nada publicitario.
 
-## 🗣️ FORMATO DE VOZ — decisión
+---
 
-**Texto en pantalla en POV de Gula (1ra persona) + audio trending. SIN voz en off.**
-Motivo: video corto con reveal visual; la voz en off competiría con el brillo y ataría el sonido (baja el empuje de alcance del audio trending). La voz en off queda reservada para un video de producto más largo.
+## 🎙️ TEXTO DE LA VOZ EN OFF (leelo de corrido)
+
+> Grabá el audio entero de una, con tu voz natural, en tono Gula (1ra persona). Después le ponés las imágenes encima. Si te trabás, frená y repetí solo esa frase.
 
 ---
 
-## 🎬 GUION (estructura por bloques)
+*"Mi humana ya perdió cuatro pelotas este mes.*
 
-| Tiempo | Bloque | Imagen (de lo ya filmado / a sumar) | Texto en pantalla (POV Gula) |
-|---|---|---|---|
-| 0-3s | **HOOK** | Gula en el parque, luz cayendo. **Insinuá un destello rápido de la pelota brillando** (curiosity gap, frena el scroll). | **"Mi humana ya perdió 4 pelotas este mes."** |
-| 3-7s | **PROBLEMA** | "Antes": buscando algo en el pasto oscuro, Gula olfateando perdida, humana con la linterna del celu. | "Todos los inviernos lo mismo: oscurece 6pm y chau juguete 🥲" |
-| 7-12s | **REVEAL** ⭐ | Tiro de la **pelota brillando** en la oscuridad. El momento estrella — dejalo respirar, texto mínimo. | "…hasta esta." |
-| 12-18s | **ACCIÓN** | Gula corriendo a buscarla, la pelota brilla en movimiento, se ve clarísima. Energía Gula full. | "La pelota que brilla en la oscuridad 🟢" |
-| 18-22s | **CIERRE / LOOP** | Gula con la pelota en la boca, mirada a cámara, satisfecha. Enlaza visual con el frame de apertura (loop). | "Paseo de invierno: salvado." + CTA: **"¿a quién más se le hace de noche el paseo? 🙋"** |
+*Y no es del todo culpa de ella… es que en invierno oscurece a las seis y el paseo se nos hace de noche.*
+
+*Buscábamos los juguetes en el pasto con la linterna del celular, como detectives.*
+
+*Hasta que apareció esta: la pelota que brilla en la oscuridad.*
+
+*Ahora la veo de lejos, la voy a buscar sin drama… y no perdemos una más.*
+
+*Paseo de invierno: salvado."*
+
+**🎬 CIERRE — CTA hablado (recomendado para empujar comentarios):**
+
+*"¿A quién más se le hace de noche el paseo?"*
+
+---
+
+## 🎬 TOMAS A GRABAR (B-roll — mapeadas a la voz)
+
+Grabá cada toma 5-10s para tener margen. No importa el orden, se acomoda al editar.
+
+| # | Mientras la voz dice… | Qué grabar |
+|---|---|---|
+| 0 | "ya perdió cuatro pelotas este mes" (hook) | Gula en el parque, luz cayendo. **Insinuá un destello rápido de la pelota brillando** (curiosity gap, frena el scroll). Texto grande: **"4 pelotas perdidas este mes 🥲"** |
+| 1 | "en invierno oscurece a las seis" | Time-lapse / plano del cielo oscureciendo en el parque |
+| 2 | "el paseo se nos hace de noche" | Gula caminando con la humana, ya casi de noche |
+| 3 | "buscábamos los juguetes… con la linterna del celular" | "Antes": Gula olfateando perdida en el pasto oscuro + humana con la linterna del celu |
+| 4 | "hasta que apareció esta" | Transición / mano sacando la pelota |
+| 5 | "la pelota que brilla en la oscuridad" ⭐ | **REVEAL: tiro de la pelota brillando** en la oscuridad. El momento estrella — dejalo respirar. |
+| 6 | "ahora la veo de lejos, la voy a buscar sin drama" | Gula corriendo a buscarla, la pelota brilla en movimiento, se ve clarísima. Energía Gula full. |
+| 7 | "y no perdemos una más" | Gula vuelve con la pelota en la boca |
+| 8 | "paseo de invierno: salvado" | Gula con la pelota, mirada a cámara satisfecha. **Que matchee con el frame de apertura (loop).** |
+| 9 | CTA: "¿a quién más se le hace de noche el paseo?" | Plano de Gula mirando a cámara / caminando, deja espacio para que entre el comentario |
 
 ---
 
@@ -32,9 +58,9 @@ Motivo: video corto con reveal visual; la voz en off competiría con el brillo y
 - [ ] **Hook en frame 1:** conflicto + número concreto ("4 pelotas este mes"). Insinuar el destello antes de los 3s.
 - [ ] **Loop:** cerrar con Gula mirando a cámara para enlazar con el frame de apertura → sube el % de visualización promedio.
 - [ ] **Saves/Shares:** ángulo de invierno 100% relatable entre dueños de perros → es la métrica que más empuja alcance.
-- [ ] **SEO TikTok/Reels:** que el texto en pantalla y el caption digan literal "pelota que brilla en la oscuridad" + "perros".
-- [ ] **CTA de comentarios:** cerrar con la pregunta → comentarios = señal fuerte para el algoritmo.
-- [ ] **Audio trending:** elegir un sonido del momento tipo "cosas que me cambiaron la vida" / chill que deje respirar el reveal.
+- [ ] **SEO TikTok/Reels:** la voz y el caption dicen literal "pelota que brilla en la oscuridad" + "perros".
+- [ ] **CTA de comentarios:** cerrar con la pregunta hablada → comentarios = señal fuerte para el algoritmo.
+- [ ] **Música:** suave de fondo, sin tapar la voz; que baje en el pico del reveal.
 
 ---
 
@@ -51,7 +77,8 @@ Motivo: video corto con reveal visual; la voz en off competiría con el brillo y
 
 ## 🎞️ TIPS DE EDICIÓN
 
-- Subtítulos/texto quemados sí o sí.
-- Cortes rápidos en hook y problema; el reveal **dejalo respirar** (sin texto encima o mínimo).
-- El brillo se lee mejor con música que no sature — que el sonido trending sea suave en el pico del reveal.
+- Grabá la voz en off entera de una; después calzás las imágenes.
+- Subtítulos quemados sí o sí (mucha gente mira sin sonido).
+- Cortes cada 2-3s sincronizados con la voz; el reveal **dejalo respirar**.
+- El brillo se lee mejor con música que no sature — bajala en el pico del reveal.
 - Que el último frame matchee con el primero para el loop.
